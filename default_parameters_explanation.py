@@ -21,4 +21,6 @@ print g(2)
 print g(3)
 print g.func_defaults
 
+*** more detailed explanation here - http://effbot.org/zone/default-values.htm  ***
+
 
