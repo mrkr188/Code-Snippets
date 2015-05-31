@@ -13,9 +13,6 @@ int g(){
     int x = 10;
     return f();  //x in f() is always bound to the variable when its declared. Lexical scoping
                  //method gets its definition in the environment it is declared, not in the one is called.
-
-
-
 }
 
 
