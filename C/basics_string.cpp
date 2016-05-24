@@ -21,7 +21,7 @@ int main()
     //std::string does not contain null terminator in th end. 
     //but if you convert this into c string null pointer will be added. 
     
-    const char *t = s.c_str();  //s.c_str() returns const char*
+    const char *t = s.c_str();  //here we must use const char* t, as s.c_str() returns const char*
     cout << t << endl;
     cout << t[3] << endl;
 
