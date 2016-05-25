@@ -4,7 +4,7 @@ using namespace std;
 
 int size(int (*A)[4]){  //passing "pointer to an array 'A' - type int(*)[] preserves size of array after passing to function.
     return sizeof(*A);  //note that type int(*)[] is different from int(*)[4]
-}                       //so we need to give int (*a)[4]) for size 2 to get size of "*arr"
+}                       //so we need to pass int (*a)[4]) into size function here to get size of "*arr"
 
 int main()
 {
