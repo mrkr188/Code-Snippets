@@ -83,4 +83,10 @@ void func(int n, const int (*x)[n])
     printf("%zd\n", sizeof(*x)/sizeof((*x)[0]));  // prints n 
 }
 
+Passing array as reference
+template<typename T, size_t N>
+size_t arraysize(T (&)[N]) {
+    return N;
+}
+
 */
