@@ -1,5 +1,11 @@
 # C++ Notes  
   
+## Basics
+  
+## Scope
+  
+
+  
 ### Pointers
   
  * 
