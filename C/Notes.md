@@ -1,5 +1,5 @@
-# C++ Notes
-
-## Arrays
+# C++ Notes  
+  
+## Arrays  
 
 * 
