@@ -2,17 +2,19 @@
   
 ## Pointers
   
- 
+ * 
   
 ## References
   
-
+* 
   
 ## Arrays  
 
 * 
   
 ## C String  
+  
+* 
   
 ## String
   
