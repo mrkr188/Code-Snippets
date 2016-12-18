@@ -1,24 +1,26 @@
 # C++ Notes  
   
-## Pointers
+### Pointers
   
  * 
   
-## References
+### References
   
 * 
   
-## Arrays  
+### Arrays  
 
 * 
   
-## C String  
+### C String  
   
 * 
   
-## String
+## Collections
+  
+### String
   
 
   
-## Vector
+### Vector
   
