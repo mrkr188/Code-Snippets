@@ -2,6 +2,39 @@
   
 ## Basics
   
+### Pointers
+  
+ * 
+  
+### Dynamic allocation  
+  
+Dynamically allocating single variables  
+```cpp
+int *pnValue = new int; // dynamically allocate an integer
+*pnValue = 3;
+delete pnvalue;  		// unallocate memory assigned to pnValue
+pnVAlue = 0; 			// assign pointer to 0
+```
+Note that the delete operator does not delete the pointer,  it deletes the memory that the pointer points to. Hence pnVAlue = 0. has to be done to remove the address from pnVAlue.
+
+Dynamically allocating arrays  
+```cpp
+int nSize = 12;
+int *pnArray = new int[nSize];
+```
+  
+### References
+  
+* 
+  
+### Arrays  
+
+* 
+  
+### C String  
+  
+* 
+  
 ### Scope
   
 C++ uses lexical scope or static scope. 
@@ -37,39 +70,6 @@ int main()
 
 }
 ```
-  
-### Pointers
-  
- * 
-  
-### Dynamic allocation  
-  
-Dynamically allocating single variables  
-```cpp
-int *pnValue = new int; // dynamically allocate an integer
-*pnValue = 3;
-delete pnvalue;  		// unallocate memory assigned to pnValue
-pnVAlue = 0; 			// assign pointer to 0
-```
-Note that the delete operator does not delete the pointer,  it deletes the memory that the pointer points to. Hence pnVAlue = 0. has to be done to remove the address from pnVAlue.
-
-Dynamically allocating arrays  
-```cpp
-int nSize = 12;
-int *pnArray = new int[nSize];
-```
-  
-### References
-  
-* 
-  
-### Arrays  
-
-* 
-  
-### C String  
-  
-* 
   
 ## IO Streams
   
