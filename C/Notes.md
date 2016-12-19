@@ -4,7 +4,7 @@
   
 ### Scope
   
-* C++ uses lexical scoping or static scope. 
+* C++ uses lexical scope or static scope. 
   
 ```cpp
 #include<iostream>
