@@ -45,7 +45,6 @@ int main()
 ### Dynamic allocation  
   
 Dynamically allocating single variables  
-
 ```cpp
 int *pnValue = new int;   // dynamically allocate an integer
 *pnValue = 3;
