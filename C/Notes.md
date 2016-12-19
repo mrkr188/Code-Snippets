@@ -61,8 +61,8 @@ C++ provides both the formatted and unformatted IO functions. In formatted or hi
 Formatted IO operations are supported via overloading the stream insertion (<<) and stream extraction (>>) operators, which presents a consistent public IO interface.  
   
 Examples:
-* cin >> str  -  formatted operation
-* cin.get()    -  unformatted operation
+* `cin >> str`  -  formatted operation
+* `cin.get()`    -  unformatted operation
   
 ## Collections
   
