@@ -4,6 +4,8 @@
   
 ### Scope
   
+* C++ uses lexical scoping or static scope. 
+  
 ```cpp
 #include<iostream>
 
