@@ -4,6 +4,10 @@ using namespace std;
 
 int main() {
     
+    // basically const references are used when we dont want the variable passed as 
+    // reference changed. suppose by passing a const reference parameter to a function we wont
+    // be able to chance the parameter. 
+    
     int b = 6;
     int &non_const_ref = b;    //created reference non_const_ref and assigned b to it
     const int &const_ref = b;  //created const reference const_ref and assigned b to it
