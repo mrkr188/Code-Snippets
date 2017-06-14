@@ -29,6 +29,7 @@ int main()
   
   cout << size_10(a) << endl;
   
+  // remember here we need to give &a, that is the address of first element in array
   cout << arraysize1(&a) <<endl;
   
 }
