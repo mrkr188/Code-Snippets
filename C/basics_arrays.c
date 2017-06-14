@@ -12,7 +12,7 @@ int fun(int ptr[]){
 
   // ptr now points to array
   ptr[1] = 21;
-  printf("%d", arr[1]);
+  printf("%d", ptr[1]);
 
 
   // Assigning any address to an array variable is not allowed.
