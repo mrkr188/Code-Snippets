@@ -29,7 +29,7 @@ int *pnArray = new int[nSize];
   
 ### Arrays  
 
-* Passing 2D arrays into function
+* Passing 2D arrays into function  
 You should at least specify the size of your second dimension.
 
 ```cpp
@@ -40,6 +40,7 @@ There is also an error which is often repeated. To pass a 2D array as argument, 
 
 ```cpp
 void myFuntion(int (*array)[SIZE2]);
+// or
 void myFuntion(int array[SIZE1][SIZE2]);
 ```
   
