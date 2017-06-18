@@ -8,4 +8,6 @@ int main(){
     int* arr = new int[10]();
     
     cout << arr[4] << endl;
+    
+    delete[] arr;
 }
