@@ -9,5 +9,6 @@ int main(){
     
     cout << arr[4] << endl;
     
+    // always delete dynamically allocated memory
     delete[] arr;
 }
