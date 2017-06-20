@@ -4,7 +4,21 @@
   
 ### Pointers
   
- * 
+ In case of complex variable declarations with pointers, following these steps would help in identifying the variable type. 
+ 
+ Start at the variable, then go right, and left, and right...and so on.
+ 
+```cpp
+int* arr1[8];
+// arr1 is an array of 8 pointers to integers.
+
+int (*arr2)[8];
+// arr2 is a pointer (the parenthesis block the right-left) to an array of 8 integers.
+
+int *(arr3[8]);
+// arr3 is an array of 8 pointers to integers.
+```
+
   
 ### Dynamic allocation  
   
