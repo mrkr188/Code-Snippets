@@ -6,7 +6,7 @@
   
  In case of complex variable declarations with pointers, following these steps would help in identifying the variable type. 
  
- Start at the variable, then go right, and left, and right...and so on. More at [this.](https://stackoverflow.com/questions/859634/c-pointer-to-array-array-of-pointers-disambiguation/859676#859676)
+ Start at the variable, then go right, and left, and right...and so on. More at [this](https://stackoverflow.com/questions/859634/c-pointer-to-array-array-of-pointers-disambiguation/859676#859676) and [this](https://stackoverflow.com/questions/1257507/what-does-this-mean-const-int-var).
  
 ```cpp
 int* arr1[8];
