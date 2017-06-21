@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// more at https://stackoverflow.com/questions/1257507/what-does-this-mean-const-int-var
 
 // passed pointer to int as function parameter
 void foo11(int* p){
