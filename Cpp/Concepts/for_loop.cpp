@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// printf returns number of characters printed
+
 /* It's just one by one execution of statements in for loop. 
     a) The initial statement is executed only once. 
     b) The second condition is printed before '*' is printed. The second statement also has short circuiting 
