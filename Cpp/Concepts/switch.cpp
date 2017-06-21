@@ -2,6 +2,8 @@
 
 #include <stdio.h>
 
+
+
 // printf("Outside "); doesnt get executed. Its almost like a comment. 
 // in switch, control directly moves to cases
 
@@ -11,6 +13,11 @@
 // 3) case values must be constant. for example if we define int arr[] = {1,2,3}; and 
 //    use arr[0], arr[1], arr[2] as case values it gives compile time error: case label 
 //    does not reduce to an integer constant
+// 4) default argument is optional and can be placed anywhere
+
+// additional info
+// http://www.geeksforgeeks.org/switch-statement-cc/
+// http://www.geeksforgeeks.org/interesting-facts-about-switch-statement-in-c/
 
 int main()
 {
