@@ -32,4 +32,6 @@ int main()
   // remember here we need to give &a, that is the address of first element in array
   cout << arraysize1(&a) <<endl;
   
+  // http://www.geeksforgeeks.org/whats-difference-between-array-and-array-for-int-array5/
+  
 }
