@@ -3,6 +3,9 @@
 #include <iostream>
 
 using namespace std;
+
+// http://www.geeksforgeeks.org/storage-for-strings-in-c/
+
  
 int main()
 {
