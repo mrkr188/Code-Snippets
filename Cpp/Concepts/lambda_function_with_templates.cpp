@@ -3,21 +3,22 @@ using namespace std;
 
 // template with lambda function
 template<typename func>
-void square(func f, const vector<int>& v){
+
+void filter(func f, const vector<int>& v){
     for(auto i : v){
-        cout << f(i) << " " ;
+        if(f(i))
+            cout << i << " " ;
     }
     cout << endl;
 }
 
 int main()
 {
-    // lambda function
-    auto f = [](int x){return x*x;};
     
     vector<int> v{1,2,3,4,5,6,7,8,9};
     
-    square(f,v);
+    // prints only even numbers
+    filter([](int x){return x%2 == 0;}, v);
     
     return 0;
 }
