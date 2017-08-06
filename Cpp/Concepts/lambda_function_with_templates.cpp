@@ -20,5 +20,15 @@ int main()
     // prints only even numbers
     filter([](int x){return x%2 == 0;}, v);
     
+    // local variables can be used in lambda functions also
+    // & tells the compiler we need to capture variables
+    // if we dont use & we get an error saying as shown below
+    // error: 'y' is not captured
+    
+    int y=4;
+    filter([&](int x){return x>y;}, v);
+    
     return 0;
 }
+
+
