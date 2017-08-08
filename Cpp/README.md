@@ -95,6 +95,12 @@ int main()
 ```
   
 ## IO Streams
+
+A stream is an object that can send and receive data.  
+   
+Any stream which can only receive data, like cout, is called an output stream, or ostream. We can end data to ostream using the string insertion operator:  <<. This operator converts data to a string and sends to a stream. Just like how we can use ostream for printing data to a console, we can use ofstream to print data to a file.  
+  
+Any stream which can only give you data, like cin, is called an input stream, or istream. We can ull out data from istream using the string extraction operator: >>. This operator gets data from the stream and converts it into the appropriate type. Just like how we can use istream to get data from a console, we can use ifstream to get data from a file.  
   
 C++ provides both the formatted and unformatted IO functions. In formatted or high-level IO, bytes are grouped and converted to types such as int, double, string or user-defined types. In unformatted or low-level IO, bytes are treated as raw bytes and unconverted.  
   
