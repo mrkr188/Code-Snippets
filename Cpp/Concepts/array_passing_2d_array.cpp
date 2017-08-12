@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// https://stackoverflow.com/questions/8767166/passing-a-2d-array-to-a-c-function
+
 int getVal(int (*A)[3], int i, int j){
     return A[i][j];
 }
